@@ -1,57 +1,90 @@
-#Título do Projeto
-Um parágrafo da descrição do projeto vai aqui
+Projeto de Extensão
+
+Página web simples em HTML que apresenta o conteúdo do Projeto de Extensão, com um título principal, um parágrafo de descrição e uma seção adicional de teste.
 
 Começando
-Essas instruções vão te garantir uma cópia do projeto funcionando na sua máquina local para fins de desenvolvimento e testes. Veja a implantação para notas sobre como implantar o projeto em um sistema ao vivo.
+
+Essas instruções vão te garantir uma cópia do projeto funcionando na sua máquina local para fins de desenvolvimento e testes. Veja a seção Implantação para notas sobre como publicar o projeto em um sistema ao vivo.
 
 Pré-requisitos
-Quais coisas você precisa para instalar o software e como instalá-las
 
-Give examples
+Para visualizar e editar o projeto, você só precisa de:
+
+Um navegador web moderno (Chrome, Firefox, Edge, Safari)
+Um editor de texto ou de código (por exemplo, VS Code)
+Opcional: Git para clonar o repositório
 Instalação
-Uma série passo a passo de exemplos que te ensinam como colocar um ambiente de desenvolvimento em funcionamento
 
-Diga qual será o passo
+Passo a passo para colocar o ambiente em funcionamento:
 
-Give the example
-E repita
+Clone o repositório:
 
-until finished
-Termine com um exemplo de como extrair alguns dados do sistema ou usá-los para uma pequena demonstração
+bash
+git clone https://github.com/seu-usuario/projeto-de-extensao.git
 
+Entre na pasta do projeto:
+
+bash
+cd projeto-de-extensao
+
+Abra o arquivo index.html no navegador (dando dois cliques sobre ele ou pelo terminal):
+
+bash
+# Linux
+xdg-open index.html
+
+# macOS
+open index.html
+
+# Windows
+start index.html
+
+Pronto! A página será exibida no navegador com o título Projeto de Extensão e as seções de conteúdo.
+
+Estrutura do projeto
+projeto-de-extensao/
+├── index.html    # Página principal
+└── README.md     # Documentação do projeto
+Estrutura do HTML
+Elemento	Descrição
+<h1>	Título principal: “Projeto de Extensão”
+<p>	Parágrafo de descrição do projeto
+<h2>	Subtítulo da seção “Teste 2”
+<p>	Parágrafo de conteúdo da seção “Teste 2”
 Conduzindo os testes
-Explique como executar os testes automatizados para esse sistema
 
-Dividir em testes de ponta a ponta
-Explique o que esses testes testam e por quê
+Por ser uma página estática, não há testes automatizados configurados. A verificação pode ser feita manualmente.
 
-Give an example
-E testes de estilo de codificação
-Explique o que esses testes testam e por quê
+Testes de validação do HTML
 
-Give an example
+Verifique se a estrutura do documento está correta e sem erros de sintaxe, usando o W3C Markup Validation Service.
+
+Envie o conteúdo do index.html no validador e confira se não há erros.
+Testes de compatibilidade
+
+Abra a página em diferentes navegadores e tamanhos de tela (desktop, tablet e celular) para garantir que o conteúdo seja exibido corretamente. As ferramentas de desenvolvedor do navegador (F12) permitem simular dispositivos móveis.
+
 Implantação
-Adicione notas adicionais sobre como implantar isso em um sistema ao vivo
+
+Por ser um site estático, o projeto pode ser publicado gratuitamente em serviços como:
+
+GitHub Pages
+Netlify
+Vercel
+
+Exemplo com GitHub Pages: envie o código para um repositório, acesse Settings → Pages, selecione a branch main e a pasta raiz (/), e salve. O site ficará disponível em https://seu-usuario.github.io/projeto-de-extensao/.
 
 Construído com
-Dropwizard - O framework web utilizado
-Maven - Gerenciamento de Dependências
-ROME - Usado para gerar Feeds RSS
+HTML5 - Linguagem de marcação utilizada
 Contribuição
-Por favor, leia CONTRIBUTING.md para detalhes sobre nosso código de conduta e o processo de envio de pull requests para nós.
+
+Por favor, leia o arquivo CONTRIBUTING.md para detalhes sobre nosso código de conduta e o processo de envio de pull requests para nós.
 
 Versionamento
+
 Usamos o SemVer para versionamento. Para as versões disponíveis, veja as tags neste repositório.
 
 Autores
-Billie Thompson - Trabalho inicial - PurpleBooth
-Veja também a lista de colaboradores que participaram deste projeto.
+Yuri Kauan- Trabalho inicial - yurikpaulaa-boop
 
-Licença
-Este projeto está licenciado sob a Licença do MIT - veja o arquivo LICENSE.md para mais detalhes
-
-Agradecimentos
-Um agradecimento para quem teve código usado
-Inspiração
-etc
 
