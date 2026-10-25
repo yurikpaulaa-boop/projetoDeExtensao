@@ -41,17 +41,6 @@ start index.html
 
 Pronto! A página será exibida no navegador com o título Projeto de Extensão e as seções de conteúdo.
 
-Estrutura do projeto
-projeto-de-extensao/
-├── index.html    # Página principal
-└── README.md     # Documentação do projeto
-Estrutura do HTML
-Elemento	Descrição
-<h1>	Título principal: “Projeto de Extensão”
-<p>	Parágrafo de descrição do projeto
-<h2>	Subtítulo da seção “Teste 2”
-<p>	Parágrafo de conteúdo da seção “Teste 2”
-Conduzindo os testes
 
 Por ser uma página estática, não há testes automatizados configurados. A verificação pode ser feita manualmente.
 
@@ -78,7 +67,6 @@ Construído com
 HTML5 - Linguagem de marcação utilizada
 Contribuição
 
-Por favor, leia o arquivo CONTRIBUTING.md para detalhes sobre nosso código de conduta e o processo de envio de pull requests para nós.
 
 Versionamento
 
