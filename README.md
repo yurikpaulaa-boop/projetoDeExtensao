@@ -17,30 +17,6 @@ Instalação
 
 Passo a passo para colocar o ambiente em funcionamento:
 
-Clone o repositório:
-
-bash
-git clone https://github.com/seu-usuario/projeto-de-extensao.git
-
-Entre na pasta do projeto:
-
-bash
-cd projeto-de-extensao
-
-Abra o arquivo index.html no navegador (dando dois cliques sobre ele ou pelo terminal):
-
-bash
-# Linux
-xdg-open index.html
-
-# macOS
-open index.html
-
-# Windows
-start index.html
-
-Pronto! A página será exibida no navegador com o título Projeto de Extensão e as seções de conteúdo.
-
 
 Por ser uma página estática, não há testes automatizados configurados. A verificação pode ser feita manualmente.
 
